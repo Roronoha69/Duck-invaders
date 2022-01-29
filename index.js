@@ -190,7 +190,7 @@ class Invader {
         },
         velocity: {
           x: 0,
-          y: 7
+          y: 5
         }
       })
     )
@@ -457,7 +457,7 @@ function animate() {
   // spawning enemies
   if (frames % randomInterval === 0) {
     grids.push(new Grid())
-    randomInterval = Math.floor(Math.random() * 500 + 500)
+    randomInterval = Math.floor(Math.random() * 190 + 190)
     frames = 0
   }
 
